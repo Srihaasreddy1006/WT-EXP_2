@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title Tag -->
+    <title>My HTML5 Showcase Page</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My HTML5 Showcase Page</h1>
+        <p>This webpage serves as a comprehensive demonstration of core HTML5 semantic elements, forms, and multimedia integration. It compiles various input types and structural fields into a single, accessible layout to showcase modern web standards. Users can interact with live forms, view structured data tables, and test embedded media sources directly on the page. It acts as both a functional template and a visual guide for clean front-end development practices.</p>
+    </header>
+
+    <hr>
+
+    
+    <!-- Image Section -->
+    <section>
+        <h2>Visual Placeholder</h2>
+        <img src="father.jpg" alt="Placeholder Showcase Image">
+    </section>
+
+    <hr>
+
+    
+    <!-- Links Section -->
+    <section>
+        <h2>External Resources</h2>
+        <p>Visit these helpful documentation platforms to learn more about web technologies:</p>
+        <ul>
+            <li><a href="https://w3schools.com" target="_blank">W3Schools Tutorials</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub Repository</a></li>
+        </ul>
+    </section>
+
+    <hr>
+
+    
+    <!-- Table Section -->
+    <section>
+        <h2>Structured Data Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Element Name</th>
+                    <th>Category</th>
+                    <th>Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>main</td>
+                    <td>Semantic</td>
+                    <td>Defines the dominant content of the body.</td>
+                </tr>
+                <tr>
+                    <td>audio</td>
+                    <td>Multimedia</td>
+                    <td>Embeds sound content into a document.</td>
+                </tr>
+                <tr>
+                    <td>progress</td>
+                    <td>Form/Status</td>
+                    <td>Represents the completion progress of a task.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    
+    <!-- Form Section -->
+    <section>
+        <h2>Interactive Form</h2>
+        <form action="#" method="POST">
+            
+            <fieldset>
+                <legend>User Registration</legend>
+
+                <!-- Input Type 1: Text -->
+                <p>
+                    <label for="username">Full Name:</label>
+                    <input type="text" id="username" name="username" placeholder="enter name" required>
+                </p>
+
+                <!-- Input Type 2: Email -->
+                <p>
+                    <label for="useremail">Email Address:</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="name@gmail.com" required>
+                </p>
+
+                <!-- Input Type 3: Date -->
+                <p>
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="birthdate">
+                </p>
+
+                <!-- Input Type 4: Telephone -->
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="9392......">
+                </p>
+
+                <!-- Input Type 5: Password -->
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
+
+                <!-- Select Dropdown with 3 Options -->
+                <p>
+                    <label for="experience">Experience Level:</label>
+                    <select id="experience" name="experience">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <!-- Progress Bar -->
+            <p>
+                <label for="form-progress">Profile Setup Status:</label>
+                <progress id="form-progress" value="64" max="100">64%</progress>
+            </p>
+
+            <!-- Submit and Reset Buttons -->
+            <p>
+                <input type="submit" value="Submit Registration">
+                <input type="reset" value="Reset Fields">
+            </p>
+
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Multimedia Section -->
+    <section>
+        <h2>Audio Integration</h2>
+        <p>Listen to a playable audio sample below:</p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <hr>
+
+   
+    <!-- Video & Media Link Section -->
+    <section>
+        <h2>Video & Media Links</h2>
+        <p>Watch a playable video sample below:</p>
+        <video controls width="500">
+            <source src="car.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>
+            Download or view the raw media asset directly: 
+            <a href="Assignment -1.pdf" target="_blank" download>Direct Media File Link</a>
+        </p>
+    </section>
+
+    <hr>
+
+    
+    <!-- Webpage Embedding Section -->
+    <section>
+        <h2>Embedded Web Context</h2>
+        <p>Below is an interactive view of a sample target webpage:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30876.85293364692!2d77.56583644827589!3d14.67825229228841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb14ac2e6404f37%3A0xb810d064e2ce70e8!2sAnantapur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1786430801326!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+
+</body>
+</html>
